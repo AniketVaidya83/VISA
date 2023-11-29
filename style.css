@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+.navbar img{
+    width: 110px;
+    height: 35px;
+    /* border: 1px solid red; */
+    margin-left: -10px;
+}
+.navbar ul{
+    width: 550px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    
+    margin-left: 250px;    
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(132, 126, 126);   
+}
+.navbar i{
+    width: 50px;
+    font-size: 28px;
+    color: grey;
+    padding-left: 320px;
+}
+/* video-section */
+
+.video-section{
+    width: 100%;
+    /* height: 720px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;  
+}
+.video-section video{
+    width: 100%;
+}
+.boxz{
+    width: 615px;
+    height: 315px;
+    background-color: rgb(2,30,76);
+    color: white;
+    padding-left: 15px;
+    position: absolute;
+    z-index: 1;   
+    overflow-x: auto;
+    left: 30px;
+    top: 250px;
+    
+}
+.boxz h3{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.boxz h1{
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.boxz p{
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 015px;
+}
+.boxz input{
+    width: 265px;
+    height: 55px;
+    background-color: rgb(252,192,21);
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+}
+/* --boxes-- */
+.boxes{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   row-gap: 30px;
+   column-gap: 30px;
+   padding-top: 30px;
+}
+.boxes .box{
+    width: 470px;
+    height: 405px;
+    /* border: 1px solid red; */
+}
+.small{
+    height: 135px;
+    padding-left: 40px;
+    background-color: rgb(247,247,247);
+    
+}
+.small h3{
+    font-size: 16px;
+    /* margin-top: 10px;    */
+    padding-top: 20px;
+}
+.small p{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 100;
+}
+.big{
+    width: 470px;
+    height: 270px;   
+}
+.big img{
+    width: 470px;
+    height: 270px;
+}
+/* promise */
+
+.promise{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(21,52,204);
+    padding-top: 50px;  
+    margin-top: 30px;
+    color: white;
+}
+.promise h3{
+    margin-top: 30px;
+}
+.promise h1{
+    font-size: 60px;
+    margin-top: 50px;
+}
+.promise input{
+    width: 210px;
+    height: 55px;
+    font-size: 16px;
+    padding-left: 15px;
+    background-color: rgb(252,192,21);
+    margin-top: 50px;
+    border: none;
+    border-radius: 3px;
+    color: red;
+}
+#planet{
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    padding-inline: 150px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#planet img{
+    width: 60px;      
+}
+#planet h3{
+    font-size: 15px;
+}
+#planet p{
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+}
+.footer span{
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+   padding-inline: 150px;
+}
+.footer ul{
+    list-style: none;;
+}
+.footer span ul li:first-child{
+    font-size: 24px;
+    list-style: none;
+    margin-top: 30px;
+    color: rgb(126, 119, 119);
+
+}
+.footer ul li{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(183, 177, 177);
+}
+
+
+/* --end--*/
+
+.end{
+    width: 100%;
+    margin-top: 50px;
+}
+#main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 100px;
+    margin-bottom: 30px;
+}
+.end button{
+    width: 350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: white;
+    color: rgb(153, 150, 150);
+    border-color: rgb(153, 150, 150);
+}
+.end button i{
+    font-size: 20px;
+}
+#onz{
+    font-size: 12px;
+    line-height: 25px;
+}
+#onz span{
+    font-size: 18px;
+    padding-right: 8px;
+}
+#icon{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(92, 87, 87);
+}
+#icon i{
+    font-size: 30px;
+}
+#main a{
+    color: rgb(161, 159, 159);
+    text-decoration: none;
+}
+ 
+
+
